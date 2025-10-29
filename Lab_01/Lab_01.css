@@ -19,12 +19,14 @@
         /* Header */
         .header {
           display:flex;
-          background-color: #fff;
+          background-color: #ff8181;
           box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-          padding: 2px;color:#95a5a6;
+          padding: 5px;color:#95a5a6;
           text-align: center;
-          border-width:2px;
-          border-color: #333;     
+          align-content: center;   
+          border: 2px solid blue; 
+          margin: 10px;        
+          width: 50%;           
         }
 
         .header h1 {
