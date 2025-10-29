@@ -9,7 +9,7 @@
           font-family: Arial, Helvetica, sans-serif;
           line-height: 1.6;
           color: #333;
-          background-color: #f4f4f4;
+          background-color: #d2d2d2;
         }
 
         .portfolio-container {
@@ -18,10 +18,13 @@
 
         /* Header */
         .header {
+          display:flex;
           background-color: #fff;
           box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-          padding: 2rem;
+          padding: 2px;color:#95a5a6;
           text-align: center;
+          border-width:2px;
+          border-color: #333;     
         }
 
         .header h1 {
@@ -122,7 +125,7 @@
         /* Links */
         .links-grid {
           display: grid;
-          grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+          grid-template-columns: repeat(auto-fit, minmax(25px, 1fr));
           gap: 1.5rem;
           margin-top: 1.5rem;
         }
